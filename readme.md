@@ -1,5 +1,7 @@
 # My personal site
-Welcome! Here's where I host the code for my personal site.
+This code is hosted in two locations! Browse using whichever you prefer.
+- Github: https://github.com/soundeffects/me
+- Codeberg: https://codeberg.org/soundeffects/me
 
 ## My interests
 If I could sum up my interests in a single phrase, it would be "creating virtual worlds". I'm always
