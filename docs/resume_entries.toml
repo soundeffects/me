@@ -1,0 +1,123 @@
+pursuit = "Sofware and Graphics Engineer"
+
+# Classes worth checking:
+# CS 3520: Racket interpreter
+# CS 4230: OpenMP and CUDA parallel computation
+# CS 4300: Python AI demos
+# CS 4600: Web graphics
+# CS4480: Python networking and server simulators
+# CS 6610: C++ Graphics Projects
+# CS 6360: VR Projects
+# CS 6630: Data Visualizations
+# CS 6640: Image Processing Python scripts
+# CS 6635: Scientific Visualizations
+# CS 6320: Computer Vision model notebooks
+
+[[sections]]
+title = "Education"
+priority = 0
+
+[[sections.entries]]
+title = "B.S. in Computer Science"
+priority = -1
+organization = "University of Utah"
+summary = "3.8 GPA, deans list, full-ride merit-based scholarship"
+courses = ["Parallel Programming", "Algorithms"]
+year = "2019 - 2023"
+
+[[sections.entries]]
+title = "M.S. in Computing, Graphics and Visualization"
+priority = -1
+organization = "University of Utah"
+summary = "3.8 GPA, deans list"
+courses = ["Interactive Graphics", "Data Visualization"]
+year = "2023 - 2025"
+
+[[sections.entries]]
+title = "M.S. in Computing, Graphics and Visualization"
+priority = 0
+organization = "University of Utah"
+summary = "3.8 GPA, deans list, full-ride merit-based scholarship"
+courses = ["Interactive Graphics", "Parallel Programming"]
+year = "2019 - 2025"
+
+[[sections.entries]]
+title = "Code to Success Bootcamp"
+priority = -1
+organization = "Bottega with Ken Garff for Good"
+summary = "Summer bootcamp for front-end web development with React."
+skills = ["React", "Redux"]
+year = "2018"
+
+[[sections]]
+title = "Portfolio"
+priority = 0
+
+[[sections.entries]]
+title = "Prockit"
+priority = 0
+summary = ""
+skills = []
+year = "2025"
+
+[[sections.entries]]
+title = "Planets on wgpu"
+priority = 0
+summary = "Procedural earth-like planets, rendered in the browser."
+skills = ["Rust", "WebGPU", "WASM", "procedural generation", "rendering primitives"]
+year = "2024"
+
+[[sections]]
+title = "Research"
+priority = 0
+
+[[sections.entries]]
+title = "Digital Image Transformations Degrade Gaze Prediction Accuracy"
+priority = 0
+summary = "Master's thesis on dataset quality issues and limitations for gaze prediction."
+skills = ["Computer vision", "Python", "Pytorch", "image processing", "statistics", "technical writing"]
+year = "2023 - 2025"
+
+[[sections.entries]]
+title = "Quantitative Experience Design Lab"
+priority = -1
+organization = "University of Utah"
+summary = ""
+skills = []
+year = "2023 - 2025"
+
+[[sections.entries]]
+title = "Camacho Lab"
+priority = -1
+organization = "Brigham Young University"
+summary = "Volunteer, propietary file format integrations and documentation for the lab's photonic circuit designer."
+skills = ["Python", "Photonic circuits", "technical writing"]
+year = "2021"
+
+[[sections]]
+title = "Employment"
+priority = 0
+
+[[sections.entries]]
+title = "Teaching Assistant"
+priority = 0
+organization = "University of Utah"
+summary = "Algorithms, Parallel Programming, and Computational Theory courses."
+skills = ["Mentoring", "course management", "computer science fundamentals"]
+year = "2020 - 2024"
+
+[[sections.entries]]
+title = "Software Engineering Contractor"
+priority = 0
+organization = "Crescendo Technologies, Inc."
+summary = "Browser automation and end-to-end tests for production web apps."
+skills = ["Playwright", "Typescript", "Javascript", "React"]
+year = "2023"
+
+[[sections.entries]]
+title = "Software Engineering Intern"
+priority = 0
+organization = "Verisage Custom Software"
+summary = "Updating Django templates and python packages."
+skills = ["Python", "Django"]
+year = "2018 - 2019"

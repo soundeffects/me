@@ -1,8 +1,11 @@
+#let data = toml("resume_entries.toml")
+
 // Styling
 #let darkgray = luma(80)
 #set text(
   font: "New Computer Modern"
 )
+#set page("us-letter")
 #show heading.where(level: 1): set text(olive)
 #show heading.where(level: 2): set text(olive)
 #show heading: it => it.body
@@ -29,48 +32,47 @@
   #underline("soundeffects")
 ]
 
-Sofware and Graphics Engineer
+#data.pursuit
 
-== Education
-=== M.S. in Computing: Graphics and Visualization,
-University of Utah, 2019 - 2025
-- Classes:
-- GPA: 3.8, deans list, and awarded full-ride merit-based scholarship
-- Skills:
-
-== Portfolio
-=== Prockit
-- Skills:
-
-=== Planets on wgpu
-- Skills:
-
-=== More at soundeffects.github.io/me
-
-== Research
-
-=== Digital Image Transformations Degrade Gaze Prediction Accuracy,
-2023 - 2025
-- Thesis
-- Skills:
-
-=== BYU Camacho Lab,
-2021
-- Volunteer
-- Skills:
-
-== Employment
-=== Teaching Assistant,
-University of Utah, 2020 - 2024
-- Responsibilities:
-- Skills:
-
-=== Contractor,
-Crescendo Technologies, Inc., 2023
-- Responsibilities:
-- Skills:
-
-=== Intern,
-Verisage Custom Software, 2018-2019
-- Responsibilities:
-- Skills:
+#for section in data.sections.sorted(key: section => -section.priority) {
+  if section.priority >= 0 [
+    == #section.title
+    #if section.title == "Portfolio" [
+      Visual demos of all my projects are at
+      #link("https://soundeffects.github.io/me")[
+        #underline("soundeffects.github.io/me")
+      ]
+    ]
+    #for entry in section.entries.sorted(key: entry => -entry.priority) {
+      if entry.priority >= 0 [
+        #grid(
+          columns: (1fr, auto),
+          row-gutter: 0pt,
+          column-gutter: 0pt,
+          [
+            === #entry.title#if "organization" in entry [,] else [:]
+            #if "organization" in entry [
+              #entry.organization
+            ] else [
+              #entry.summary
+            ]
+          ],
+          entry.year
+        )
+        #v(-5pt)
+        #if "organization" in entry [
+          #entry.summary
+          #linebreak()
+        ]
+        #if "skills" in entry [
+          Skills: #entry.skills.join(", ")
+          #linebreak()
+        ]
+        #if "courses" in entry [
+          Courses: #entry.courses.join(", ")
+        ]
+        #v(-2pt)
+      ]
+    }
+  ]
+}
