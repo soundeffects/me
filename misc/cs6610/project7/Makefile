@@ -6,7 +6,7 @@ shadow_mapping: shadow_mapping.cpp
 	# cyCodeBase and the c++ std library, because cyCodeBase depends on it. Finally, we use
 	# Apple's pre-installed OpenGL framework.
 	gcc -std=c++11 \
-	-I /opt/homebrew/Cellar/glfw/3.3.8/include -L /opt/homebrew/Cellar/glfw/3.3.8/lib -l GLFW \
+	-I /opt/homebrew/Cellar/glfw/3.4/include -L /opt/homebrew/Cellar/glfw/3.4/lib -l GLFW \
 	-I /opt/homebrew/Cellar/glew/2.2.0_1/include -L /opt/homebrew/Cellar/glew/2.2.0_1/lib -l GLEW \
 	-I ../cyCodeBase/ \
 	-framework OpenGL \
