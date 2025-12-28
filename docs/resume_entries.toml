@@ -29,17 +29,17 @@ year = "2019 - 2023"
 title = "M.S. in Computing, Graphics and Visualization"
 priority = -1
 organization = "University of Utah"
-summary = "3.8 GPA, deans list"
+summary = "3.95 GPA, deans list"
 courses = ["Interactive Graphics", "Data Visualization"]
 year = "2023 - 2025"
 
-[[sections.entries]]
-title = "M.S. in Computing, Graphics and Visualization"
-priority = 0
-organization = "University of Utah"
-summary = "3.8 GPA, deans list, full-ride merit-based scholarship"
-courses = ["Interactive Graphics", "Parallel Programming"]
-year = "2019 - 2025"
+# [[sections.entries]]
+# title = "M.S. in Computing, Graphics and Visualization"
+# priority = 0
+# organization = "University of Utah"
+# summary = "3.9 GPA, deans list, full-ride merit-based scholarship"
+# courses = ["Interactive Graphics", "Parallel Programming"]
+# year = "2019 - 2025"
 
 [[sections.entries]]
 title = "Code to Success Bootcamp"
@@ -66,6 +66,13 @@ priority = 0
 summary = "Procedural earth-like planets, rendered in the browser."
 skills = ["Rust", "WebGPU", "WASM", "procedural generation", "rendering primitives"]
 year = "2024"
+
+[[sections.entries]]
+title = "\"Spellcasters\" VR Demo"
+priority = 0
+summary = "Tracking 3D gestures using VR controllers as \"wands\" in a spell-casting VR game."
+skills = ["VR", "Unity", "C#", "Gesture Recognition", "Game Development"]
+year = "2023"
 
 [[sections]]
 title = "Research"
