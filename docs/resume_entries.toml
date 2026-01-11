@@ -26,17 +26,17 @@ year = "2019 - 2023"
 title = "M.S. in Computing, Graphics and Visualization"
 priority = -1
 organization = "University of Utah"
-summary = "3.8 GPA, deans list"
+summary = "3.95 GPA, deans list"
 courses = ["Interactive Graphics", "Data Visualization"]
 year = "2023 - 2025"
 
-[[sections.entries]]
-title = "M.S. in Computing, Graphics and Visualization"
-priority = 0
-organization = "University of Utah"
-summary = "3.8 GPA, deans list, full-ride merit-based scholarship"
-courses = ["Interactive Graphics", "Parallel Programming"]
-year = "2019 - 2025"
+# [[sections.entries]]
+# title = "M.S. in Computing, Graphics and Visualization"
+# priority = 0
+# organization = "University of Utah"
+# summary = "3.9 GPA, deans list, full-ride merit-based scholarship"
+# courses = ["Interactive Graphics", "Parallel Programming"]
+# year = "2019 - 2025"
 
 [[sections.entries]]
 title = "Code to Success Bootcamp"
@@ -65,6 +65,7 @@ skills = ["Rust", "WebGPU", "WASM", "procedural generation", "rendering primitiv
 year = "2024"
 
 [[sections.entries]]
+<<<<<<< HEAD
 title = "Teapot Rendering"
 priority = 0
 summary = """Hands-on experience with shadow mapping, texture render targets, environment map
@@ -76,6 +77,13 @@ title = "Scientific Visualizations"
 priority = 0
 summary = "Advanced visualizations for air vortices, maps, and other spatial data."
 skills = ["ParaView", "multi-dimensional visualization"]
+=======
+title = "\"Spellcasters\" VR Demo"
+priority = 0
+summary = "Tracking 3D gestures using VR controllers as \"wands\" in a spell-casting VR game."
+skills = ["VR", "Unity", "C#", "Gesture Recognition", "Game Development"]
+year = "2023"
+>>>>>>> 754c4d26fca7712a4494d043411c4731eea691d6
 
 [[sections]]
 title = "Research"
