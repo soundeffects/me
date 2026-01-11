@@ -4,14 +4,11 @@ pursuit = "Sofware and Graphics Engineer"
 # CS 3520: Racket interpreter
 # CS 4230: OpenMP and CUDA parallel computation
 # CS 4300: Python AI demos
-# CS 4600: Web graphics
-# CS4480: Python networking and server simulators
-# CS 6610: C++ Graphics Projects
-# CS 6360: VR Projects
-# CS 6630: Data Visualizations
+# CS 4480: Python networking and server simulators
 # CS 6640: Image Processing Python scripts
-# CS 6635: Scientific Visualizations
 # CS 6320: Computer Vision model notebooks
+
+# List classes in education section
 
 [[sections]]
 title = "Education"
@@ -66,6 +63,19 @@ priority = 0
 summary = "Procedural earth-like planets, rendered in the browser."
 skills = ["Rust", "WebGPU", "WASM", "procedural generation", "rendering primitives"]
 year = "2024"
+
+[[sections.entries]]
+title = "Teapot Rendering"
+priority = 0
+summary = """Hands-on experience with shadow mapping, texture render targets, environment map
+reflections, and tessellation/geometry shaders."""
+skills = ["C++", "OpenGL", "interactive graphics", "modern rendering"]
+
+[[sections.entries]]
+title = "Scientific Visualizations"
+priority = 0
+summary = "Advanced visualizations for air vortices, maps, and other spatial data."
+skills = ["ParaView", "multi-dimensional visualization"]
 
 [[sections]]
 title = "Research"

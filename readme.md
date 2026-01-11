@@ -72,6 +72,8 @@ arts, crafts, or home improvement.
     adjacent to mobile use cases.
 - Weta FX (VFX)
     - Reputable VFX engineers, researchers, and artists.
+- Foresight Mining Co.
+- Nominal
 
 ### Second Tier
 - Zed Industries (Zed editor)
@@ -125,6 +127,7 @@ arts, crafts, or home improvement.
     - A prestigious company/founder working on mixed reality. Good experience.
 - Extropic (Probabalistic computing chip)
     - Needs some more research, but seems cool.
+- Akhetonics (Photonics compute)
 
 ### Third Tier
 - Brilliant (Online courses)
