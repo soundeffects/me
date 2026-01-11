@@ -1,4 +1,4 @@
-pursuit = "Sofware and Graphics Engineer"
+pursuit = "Software and Visualization Engineer"
 
 # Classes worth checking:
 # CS 3520: Racket interpreter
@@ -12,31 +12,23 @@ pursuit = "Sofware and Graphics Engineer"
 
 [[sections]]
 title = "Education"
-priority = 0
+priority = 4
 
 [[sections.entries]]
 title = "B.S. in Computer Science"
-priority = -1
+priority = 0
 organization = "University of Utah"
 summary = "3.8 GPA, deans list, full-ride merit-based scholarship"
-courses = ["Parallel Programming", "Algorithms"]
-year = "2019 - 2023"
+courses = ["Parallel Programming", "Algorithms", "Programming Languages", "Intro to AI"]
+time = "Fall 2019 - Spring 2023"
 
 [[sections.entries]]
-title = "M.S. in Computing, Graphics and Visualization"
-priority = -1
+title = "M.S. in Computing: Visualization"
+priority = 0
 organization = "University of Utah"
 summary = "3.95 GPA, deans list"
-courses = ["Interactive Graphics", "Data Visualization"]
-year = "2023 - 2025"
-
-# [[sections.entries]]
-# title = "M.S. in Computing, Graphics and Visualization"
-# priority = 0
-# organization = "University of Utah"
-# summary = "3.9 GPA, deans list, full-ride merit-based scholarship"
-# courses = ["Interactive Graphics", "Parallel Programming"]
-# year = "2019 - 2025"
+courses = ["Interactive Graphics", "Data Visualization", "Image Processing", "Computer Vision"]
+time = "Fall 2023 - Fall 2025"
 
 [[sections.entries]]
 title = "Code to Success Bootcamp"
@@ -44,10 +36,10 @@ priority = -1
 organization = "Bottega with Ken Garff for Good"
 summary = "Summer bootcamp for front-end web development with React."
 skills = ["React", "Redux"]
-year = "2018"
+time = "2018"
 
 [[sections]]
-title = "Portfolio"
+title = "Projects"
 priority = 0
 
 [[sections.entries]]
@@ -55,46 +47,46 @@ title = "Prockit"
 priority = 0
 summary = ""
 skills = []
-year = "2025"
+time = "2025"
 
 [[sections.entries]]
 title = "Planets on wgpu"
 priority = 0
 summary = "Procedural earth-like planets, rendered in the browser."
 skills = ["Rust", "WebGPU", "WASM", "procedural generation", "rendering primitives"]
-year = "2024"
+time = "2024"
 
 [[sections.entries]]
-<<<<<<< HEAD
-title = "Teapot Rendering"
+title = "Interactive OpenGL Renderer"
 priority = 0
-summary = """Hands-on experience with shadow mapping, texture render targets, environment map
-reflections, and tessellation/geometry shaders."""
+summary = "Shadow mapping, texture render targets, environment map reflections, and more."
 skills = ["C++", "OpenGL", "interactive graphics", "modern rendering"]
+time = "2022"
 
 [[sections.entries]]
 title = "Scientific Visualizations"
 priority = 0
 summary = "Advanced visualizations for air vortices, maps, and other spatial data."
 skills = ["ParaView", "multi-dimensional visualization"]
-=======
+time = "2024"
+
+[[sections.entries]]
 title = "\"Spellcasters\" VR Demo"
-priority = 0
+priority = -1
 summary = "Tracking 3D gestures using VR controllers as \"wands\" in a spell-casting VR game."
 skills = ["VR", "Unity", "C#", "Gesture Recognition", "Game Development"]
-year = "2023"
->>>>>>> 754c4d26fca7712a4494d043411c4731eea691d6
+time = "2023"
 
 [[sections]]
 title = "Research"
-priority = 0
+priority = 2
 
 [[sections.entries]]
 title = "Digital Image Transformations Degrade Gaze Prediction Accuracy"
 priority = 0
 summary = "Master's thesis on dataset quality issues and limitations for gaze prediction."
 skills = ["Computer vision", "Python", "Pytorch", "image processing", "statistics", "technical writing"]
-year = "2023 - 2025"
+time = "2023 - 2025"
 
 [[sections.entries]]
 title = "Quantitative Experience Design Lab"
@@ -102,7 +94,7 @@ priority = -1
 organization = "University of Utah"
 summary = ""
 skills = []
-year = "2023 - 2025"
+time = "2023 - 2025"
 
 [[sections.entries]]
 title = "Camacho Lab"
@@ -110,32 +102,32 @@ priority = -1
 organization = "Brigham Young University"
 summary = "Volunteer, propietary file format integrations and documentation for the lab's photonic circuit designer."
 skills = ["Python", "Photonic circuits", "technical writing"]
-year = "2021"
+time = "2021"
 
 [[sections]]
 title = "Employment"
-priority = 0
+priority = 3
 
 [[sections.entries]]
 title = "Teaching Assistant"
 priority = 0
 organization = "University of Utah"
-summary = "Algorithms, Parallel Programming, and Computational Theory courses."
+courses = ["Graphics", "Algorithms", "Parallel Programming", "Computational Theory"]
 skills = ["Mentoring", "course management", "computer science fundamentals"]
-year = "2020 - 2024"
+time = "Fall 2020 - Spring 2024"
 
 [[sections.entries]]
-title = "Software Engineering Contractor"
+title = "Web Development Intern"
 priority = 0
 organization = "Crescendo Technologies, Inc."
 summary = "Browser automation and end-to-end tests for production web apps."
 skills = ["Playwright", "Typescript", "Javascript", "React"]
-year = "2023"
+time = "Summer 2023"
 
 [[sections.entries]]
-title = "Software Engineering Intern"
+title = "CI/CD Intern"
 priority = 0
 organization = "Verisage Custom Software"
 summary = "Updating Django templates and python packages."
 skills = ["Python", "Django"]
-year = "2018 - 2019"
+time = "Fall 2018"

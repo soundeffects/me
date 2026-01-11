@@ -37,7 +37,7 @@
 #for section in data.sections.sorted(key: section => -section.priority) {
   if section.priority >= 0 [
     == #section.title
-    #if section.title == "Portfolio" [
+    #if section.title == "Projects" [
       Visual demos of all my projects are at
       #link("https://soundeffects.github.io/me")[
         #underline("soundeffects.github.io/me")
@@ -50,26 +50,28 @@
           row-gutter: 0pt,
           column-gutter: 0pt,
           [
-            === #entry.title#if "organization" in entry [,] else [:]
+            #h(1.5em)
+            === #entry.title#if "organization" in entry [,]
             #if "organization" in entry [
               #entry.organization
-            ] else [
-              #entry.summary
             ]
           ],
-          entry.year
+          entry.time
         )
         #v(-5pt)
-        #if "organization" in entry [
+        #if "summary" in entry [
+          #h(3em)
           #entry.summary
           #linebreak()
         ]
-        #if "skills" in entry [
-          Skills: #entry.skills.join(", ")
+        #if "courses" in entry [
+          #h(3em)
+          Courses: #entry.courses.join(", ")
           #linebreak()
         ]
-        #if "courses" in entry [
-          Courses: #entry.courses.join(", ")
+        #if "skills" in entry [
+          #h(3em)
+          Skills: #entry.skills.join(", ")
         ]
         #v(-2pt)
       ]
