@@ -1,4 +1,4 @@
-pursuit = "Software and Visualization Engineer"
+pursuit = "Software and visualization engineer"
 
 # Classes worth checking:
 # CS 3520: Racket interpreter
@@ -18,17 +18,17 @@ priority = 4
 title = "B.S. in Computer Science"
 priority = 0
 organization = "University of Utah"
-summary = "3.8 GPA, deans list, full-ride merit-based scholarship"
+summary = "3.82 GPA, dean's list, full-ride merit-based scholarship"
 courses = ["Parallel Programming", "Algorithms", "Programming Languages", "Intro to AI"]
-time = "Fall 2019 - Spring 2023"
+time = "Aug 2019 - May 2023"
 
 [[sections.entries]]
 title = "M.S. in Computing: Visualization"
 priority = 0
 organization = "University of Utah"
-summary = "3.95 GPA, deans list"
+summary = "3.95 GPA, dean's list"
 courses = ["Interactive Graphics", "Data Visualization", "Image Processing", "Computer Vision"]
-time = "Fall 2023 - Fall 2025"
+time = "Aug 2023 - Dec 2025"
 
 [[sections.entries]]
 title = "Code to Success Bootcamp"
@@ -45,30 +45,30 @@ priority = 0
 [[sections.entries]]
 title = "Prockit"
 priority = 0
-summary = ""
-skills = []
-time = "2025"
+summary = "Framework for building easy, performant, and modular procedural content generators."
+skills = ["Rust", "Bevy", "systems design", "developer tools", "multi-threading"]
+time = "2026"
+
+[[sections.entries]]
+title = "Scientific Visualizations, Coursework"
+priority = 0
+summary = "Advanced visualizations for air vortices, maps, and other spatial data."
+skills = ["ParaView", "data visualization", "high-dimensional data"]
+time = "2024"
 
 [[sections.entries]]
 title = "Planets on wgpu"
 priority = 0
-summary = "Procedural earth-like planets, rendered in the browser."
-skills = ["Rust", "WebGPU", "WASM", "procedural generation", "rendering primitives"]
-time = "2024"
+summary = "Generated earth-like planets, rendered and animated in the browser."
+skills = ["Rust", "WebAssembly", "WebGPU", "procedural generation", "rendering techniques"]
+time = "2023"
 
 [[sections.entries]]
 title = "Interactive OpenGL Renderer"
 priority = 0
 summary = "Shadow mapping, texture render targets, environment map reflections, and more."
-skills = ["C++", "OpenGL", "interactive graphics", "modern rendering"]
-time = "2022"
-
-[[sections.entries]]
-title = "Scientific Visualizations"
-priority = 0
-summary = "Advanced visualizations for air vortices, maps, and other spatial data."
-skills = ["ParaView", "multi-dimensional visualization"]
-time = "2024"
+skills = ["C++", "OpenGL", "GLSL", "rendering techniques"]
+time = "2023"
 
 [[sections.entries]]
 title = "\"Spellcasters\" VR Demo"
@@ -82,10 +82,11 @@ title = "Research"
 priority = 2
 
 [[sections.entries]]
-title = "Digital Image Transformations Degrade Gaze Prediction Accuracy"
+title = "\"Digital Image Transformations Degrade Gaze Prediction Accuracy\""
+link = "https://github.com/soundeffects/transformations_and_gaze_prediction"
 priority = 0
-summary = "Master's thesis on dataset quality issues and limitations for gaze prediction."
-skills = ["Computer vision", "Python", "Pytorch", "image processing", "statistics", "technical writing"]
+summary = "Master's thesis on dataset limitations for gaze prediction machine learning models."
+skills = ["Computer vision", "Python", "Pytorch", "statistics", "technical writing"]
 time = "2023 - 2025"
 
 [[sections.entries]]
@@ -112,22 +113,22 @@ priority = 3
 title = "Teaching Assistant"
 priority = 0
 organization = "University of Utah"
-courses = ["Graphics", "Algorithms", "Parallel Programming", "Computational Theory"]
-skills = ["Mentoring", "course management", "computer science fundamentals"]
-time = "Fall 2020 - Spring 2024"
+courses = ["Intro to Graphics", "Algorithms", "Parallel Programming", "Computational Theory"]
+skills = ["mentorship", "communication", "management", "collaboration", "conflict resolution"]
+time = "Aug 2020 - May 2024"
 
 [[sections.entries]]
 title = "Web Development Intern"
 priority = 0
 organization = "Crescendo Technologies, Inc."
 summary = "Browser automation and end-to-end tests for production web apps."
-skills = ["Playwright", "Typescript", "Javascript", "React"]
+skills = ["Playwright", "Typescript", "Javascript", "React", "full-stack"]
 time = "Summer 2023"
 
 [[sections.entries]]
-title = "CI/CD Intern"
+title = "Deployment Intern"
 priority = 0
 organization = "Verisage Custom Software"
 summary = "Updating Django templates and python packages."
-skills = ["Python", "Django"]
+skills = ["Python", "Django", "backend systems"]
 time = "Fall 2018"

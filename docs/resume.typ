@@ -38,10 +38,12 @@
   if section.priority >= 0 [
     == #section.title
     #if section.title == "Projects" [
-      Visual demos of all my projects are at
+      All of my projects are at
       #link("https://soundeffects.github.io/me")[
         #underline("soundeffects.github.io/me")
       ]
+      or
+      #link("https://github.com/soundeffects")[#underline("github")].
     ]
     #for entry in section.entries.sorted(key: entry => -entry.priority) {
       if entry.priority >= 0 [
@@ -51,7 +53,7 @@
           column-gutter: 0pt,
           [
             #h(1.5em)
-            === #entry.title#if "organization" in entry [,]
+            === #if "link" in entry [#link(entry.link)[#underline(entry.title)]] else [#entry.title]#if "organization" in entry [,]
             #if "organization" in entry [
               #entry.organization
             ]
