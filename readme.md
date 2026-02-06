@@ -3,6 +3,69 @@ This code is hosted in two locations! Browse using whichever you prefer.
 - Github: https://github.com/soundeffects/me
 - Codeberg: https://codeberg.org/soundeffects/me
 
+## My eventual studio
+I think two big categories of goals are preservational and explorational goals. (This philosophy
+draws parallels to the exploration/exploitation dilemma.)
+
+Preservational goals aim to keep pace or exceed the growth of all competitors in terms of energy
+expenditure to ensure survival in the event of institutional upheaval. If one form of currency that
+can be converted to energy expenditure goes down (including social, financial, and trust-based
+currencies), then it is a preservational goal to seek new currencies for energy expenditure. Energy
+expenditure can be converted into all other survival instruments. The maximally stable society for
+all actors' preservation is one that is maximally decentralized in terms of energy expenditure, and
+which predictably shares all growths in energy expenditure amongst all peers.
+
+Explorational goals basically include all other goals which do not necessarily ensure survival.
+They are usually intrinsically motivated. Whereas preservational goals may add explorational
+elements in order to keep pace in areas such as research, the exploration is only in service of the
+preservational goal.
+
+The best kind of goals are ones that are difficult to categorize as either preservation or
+exploration; they seem important for both reasons. I will call these "best" goals. This allows
+people to continue to be motivated by
+the goals, even when shifting social landscapes and emotions seem to flip-flop between prioritizing
+preservation or exploration.
+
+For my eventual "developer studio" (read: startup) which I want to create, I want to deal with all
+kinds of projects within my expertise, but the key litmus test for whether a project should be
+pursued is whether the goals that motivate the project are "best" goals. If they are, then it should
+be a good candidate for a project.
+
+### How to start the studio
+I need to start by building social interest on project ideas, and building trust that the studio is
+capable. This means I need to start shipping small products that are useful, including research,
+software, and hardware blueprints; as well as posting about big ideas and signalling the projects
+that the studio would like to pursue. Both of these can start out by creating a personal website
+and posting ideas and products there, but in order to really send the signals out to the world a
+social media presence is important.
+
+The audience for this social media posting is people who are highly motivated and hyped by these
+"best" goals--at least by the preservational aspect to the goals (which are universally appreciated)
+and the merit of the explorational goals, if they aren't specifically intrinsically motivated by the
+type of exploration the studio pursues. This will include well educated people with both creative
+and technical sides. It will include people who are middle-term thinkers (4-8 years window); it will
+exclude short-term or long-term planners. It will include both those who are jaded and fresh, but
+will require that all are ready to exert effort to learn and try things.
+
+This seems to point towards a model of short-form hooks (on microblogging and short-form video
+platforms) pointing towards long-form content (on blogging or video essay platforms). Video series
+might be another model to try. Exclusively episodic or reactive short-form content seems to
+cultivate an audience which is not our target. Exclusively long-form content seems to favor internet
+drifters but excludes the socially involved, which we don't want to exclude. Responding to comments
+to enforce the vision of the studio in the early days of social media outreach is important to
+cultivating the target audience. Posting should be regular, but may be as sparse as once a quarter
+to as frequent as twice a month. Any other time frame will either miss out on engagement or
+cultivate a short-term mindset audience.
+
+Additionally, there should be tiers of engagement: a more private chat group for those who want to
+join and get more involved, and possibly a livestream discussion/coding channel.
+
+### Post Topics
+The topics of each post should be motivated both by internal work of the studio, highly threatening
+external events that must be responded to, and questions/topics that are motivating for both the
+studio members and the audience. Polling topics from the audience seems to be a good way to get
+feedback on ideas/discussions.
+
 ## My interests
 If I could sum up my interests in a single phrase, it would be "creating virtual worlds". I'm always
 interested in immersive virtual reality, human-like AI, game design, advanced graphics and
@@ -201,9 +264,7 @@ arts, crafts, or home improvement.
 - xrjobsboard.com
 - QED Lab job channel
 
-## TODO
-- Strategies for each company/interest group
-- Network
-- Resume
-- Portfolio
-- Blog
+## Interesting Post Ideas
+- How systems work: decentralized networks
+- Why do I get bad vibes and unmotivation when considering the US markets?: explore/exploit,
+preservation/exploration, competition, decentralization
