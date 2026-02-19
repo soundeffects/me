@@ -38,7 +38,7 @@
   if section.priority >= 0 [
     == #section.title
     #if section.title == "Projects" [
-      All of my projects are at
+      All of my projects are either at
       #link("https://soundeffects.github.io/me")[
         #underline("soundeffects.github.io/me")
       ]
