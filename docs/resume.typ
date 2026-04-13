@@ -17,6 +17,7 @@
 )
 #show link: set text(olive, weight: "semibold")
 #show list.item: set text(darkgray)
+#set par(first-line-indent: (amount: 0pt, all: true), hanging-indent: 3em)
 
 = James Youngblood
 #h(1fr)
@@ -43,7 +44,7 @@
         #underline("soundeffects.github.io/me")
       ]
       or
-      #link("https://github.com/soundeffects")[#underline("github")].
+      #link("https://github.com/soundeffects")[#underline("my github")].
     ]
     #for entry in section.entries.sorted(key: entry => -entry.priority) {
       if entry.priority >= 0 [

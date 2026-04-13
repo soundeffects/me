@@ -191,6 +191,7 @@ arts, crafts, or home improvement.
 - Extropic (Probabalistic computing chip)
     - Needs some more research, but seems cool.
 - Akhetonics (Photonics compute)
+- Allonic (https://allonic.co/)
 
 ### Third Tier
 - Brilliant (Online courses)
@@ -268,3 +269,28 @@ arts, crafts, or home improvement.
 - How systems work: decentralized networks
 - Why do I get bad vibes and unmotivation when considering the US markets?: explore/exploit,
 preservation/exploration, competition, decentralization
+
+## Resources
+- https://github.com/mehmetkirkoca/social-media-manager
+- https://github.com/alexandru/social-publish
+- https://github.com/tokland/youtube-upload/
+- https://developers.google.com/youtube/v3/guides/uploading_a_video
+- https://github.com/aitorres/barkr
+- https://gitlab.com/aaronNG/reddio
+- https://github.com/ihabunek/toot
+- https://brid.gy/
+- https://fed.brid.gy/
+- https://github.com/NodeBB/NodeBB
+- https://github.com/xRiddin/Discord-Auto-message
+- https://xmpp.org/software/?category=clients
+- https://nextcloud.com/talk/
+- https://matrix.org/
+- https://fluxer.app/
+
+## Social Groups/Networks I'm Looking At
+- https://github.com/BasixKOR/awesome-activitypub
+- https://dribbble.com/
+- https://indieweb.org/
+- https://fediforum.org/
+- https://fediverse.party/en/miscellaneous/
+- https://socialhub.activitypub.rocks/

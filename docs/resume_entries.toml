@@ -1,14 +1,11 @@
-pursuit = "Software and graphics engineer"
+pursuit = """Interested in web infrastructure, computer graphics, low-level software, robotic agents, open source, and more."""
 
 # Classes worth checking:
 # CS 3520: Racket interpreter
-# CS 4230: OpenMP and CUDA parallel computation
 # CS 4300: Python AI demos
 # CS 4480: Python networking and server simulators
 # CS 6640: Image Processing Python scripts
 # CS 6320: Computer Vision model notebooks
-
-# List classes in education section
 
 [[sections]]
 title = "Education"
@@ -18,36 +15,51 @@ priority = 4
 title = "B.S. in Computer Science"
 priority = 0
 organization = "University of Utah"
-summary = "3.82 GPA, dean's list, full-ride merit-based scholarship"
-courses = ["Parallel Programming", "Intro to AI", "Computer Networking", "etc."]
+summary = "3.82 GPA, dean's list, and full-ride merit-based scholarship."
+courses = ["Parallel Programming", "Computer Networking", "Software Practice", "etc."]
 time = "Aug 2019 - May 2023"
 
 [[sections.entries]]
-title = "M.S. in Computing: Visualization"
+title = "M.S. in Computing, Visualization Emphasis"
 priority = 1
 organization = "University of Utah"
-summary = "3.95 GPA, dean's list"
-courses = ["Interactive Graphics", "Virtual Reality", "Computational Geometry", "etc."]
+summary = "3.95 GPA, dean's list, and master's thesis (under Research section)."
+courses = ["Interactive Graphics", "Data Visualization", "Image Processing", "etc."]
 time = "Aug 2023 - Dec 2025"
 
 [[sections.entries]]
 title = "Code to Success Bootcamp"
-priority = -1
-organization = "Bottega with Ken Garff for Good"
-summary = "Summer bootcamp for front-end web development with React."
-skills = ["React", "Redux"]
-time = "2018"
+priority = 0
+organization = "Bottega and Ken Garff for Good"
+summary = "Summer bootcamp for modern front-end web development."
+skills = ["Javascript", "React", "Redux"]
+time = "Summer 2018"
+
+# All courses:
+# courses = ["Interactive Graphics", "Data Visualization", "Scientific Visualization",
+# "Virtual Reality", "Computational Geometry", "Computational Topology", "Image Processing",
+# "Computer Vision", "Computer Networking", "Intro to AI", "Parallel Programming",
+# "Computer Systems", "Computational Theory", "Computer Organization",
+# "Algorithms and Data Structures", "Programming Languages", "Software Development", "Databases"]
 
 [[sections]]
 title = "Projects"
 priority = 0
 
 [[sections.entries]]
-title = "Prockit"
-priority = 0
+title = "Prockit (procedural generation toolkit)"
+link = "https://github.com/soundeffects/prockit"
+priority = -1
 summary = "Framework for building easy, performant, and modular procedural content generators."
 skills = ["Rust", "voxel engines", "API design", "developer tools", "multi-threading"]
 time = "2026"
+
+[[sections.entries]]
+title = "Parallel Programming, Coursework"
+priority = -1
+summary = "Wrote high performance multithreading C pipelines and CUDA kernels."
+skills = ["C", "OpenMP", "Pthreads", "CUDA"]
+time = "2022"
 
 [[sections.entries]]
 title = "Scientific Visualizations, Coursework"
@@ -57,14 +69,30 @@ skills = ["ParaView", "data visualization", "high-dimensional data"]
 time = "2024"
 
 [[sections.entries]]
-title = "Interactive OpenGL Renderer"
+title = "Is Music Diverging? (Webpage infographic)"
+priority = -1
+time = "2023"
+summary = "Visualizations of commonalities and differences between music genres from Spotify data."
+skills = ["D3.js", "javascript", "REST APIs", "data visualization", "teamwork"]
+
+[[sections.entries]]
+title = "Jesture (hand gesture recognizer)"
+link = "https://jestureapp.github.io/"
 priority = 0
+summary = "Desktop app to control your computer using hand gestures seen through a web cam."
+skills = ["C++", "Qt Framework", "MediaPipe", "OpenCV", "Bazel", "Linux X11", "teamwork"]
+time = "2023"
+
+[[sections.entries]]
+title = "Interactive OpenGL Renderer"
+priority = -1
 summary = "Shadow mapping, texture render targets, environment map reflections, and more."
 skills = ["C++", "OpenGL", "GLSL", "rendering techniques"]
 time = "2023"
 
 [[sections.entries]]
 title = "Planets on wgpu"
+link = "https://soundeffects.github.io/planets_on_wgpu/"
 priority = 0
 summary = "Generated earth-like planets, rendered and animated in the browser."
 skills = ["Rust", "WebAssembly", "WebGPU", "procedural generation", "rendering techniques"]
@@ -72,9 +100,9 @@ time = "2023"
 
 [[sections.entries]]
 title = "Gesture Tracking in VR"
-priority = 0
+priority = -1
 summary = "Tracking 3D gestures using VR controllers as \"wands\" in a spell-casting VR game."
-skills = ["VR", "Unity", "C#", "Gesture Recognition", "Game Development"]
+skills = ["VR", "Unity", "C#", "3D gesture recognition", "game development", "teamwork"]
 time = "2023"
 
 [[sections]]
@@ -84,9 +112,13 @@ priority = 2
 [[sections.entries]]
 title = "\"Digital Image Transformations Degrade Gaze Prediction Accuracy\""
 link = "https://github.com/soundeffects/transformations_and_gaze_prediction"
-priority = -1
-summary = "Master's thesis on dataset limitations for gaze prediction machine learning models."
-skills = ["Computer vision", "Python", "Pytorch", "statistics", "technical writing"]
+priority = 0
+summary = "Master's thesis on dataset limitations for gaze prediction ML models."
+# summary = """Master's thesis (published with University of Utah press at end of Spring 2026) \
+# finds that, for machine learning models which predict where humans fixate their gaze in images, \
+# transformations of the images produce degraded performance, most likely due to lack of relevant \
+# training data."""
+skills = ["Computer vision", "Python", "Pytorch (CNNs)", "academic writing"]
 time = "2023 - 2025"
 
 [[sections.entries]]
@@ -94,16 +126,23 @@ title = "Quantitative Experience Design Lab"
 link = "https://qed.games.utah.edu/"
 priority = 0
 organization = "University of Utah"
-summary = "Member, studied automated narrative design and computer vision"
-skills = ["Narrative Design", "AI for games", "computer vision", "technical writing"]
+summary = "Member, studied applications of AI, automated narrative design, and computer vision."
+# summary = """Member of the Quantitative Experience Design Lab at the University of Utah, which \
+# studies applications of AI and human-centered computing to improve on current methods of \
+# delivering experiences to users (including games, education, storytelling and narrative). I \
+# presented several reviews of relevant literature at meetings."""
+skills = ["machine learning", "classical AI", "computer vision", "literature review"]
 time = "2023 - 2025"
 
 [[sections.entries]]
 title = "Camacho Lab"
 priority = -1
 organization = "Brigham Young University"
-summary = "Volunteer, propietary file format integrations and documentation for the lab's photonic circuit designer."
-skills = ["Python", "Photonic circuits", "technical writing"]
+summary = "Volunteer, documented the lab's quantum circuit designer, wrote file import/export."
+# summary = """Volunteer developer contributing the the lab's photonic circuit designer. My primary \
+# deliverables were the integration of propietary file formats for importing/exporting and \
+# documentation of the circuit designer's internals."""
+skills = ["Python", "file formats", "circuit design", "quantum computing"]
 time = "2021"
 
 [[sections]]
@@ -114,22 +153,52 @@ priority = 3
 title = "Teaching Assistant"
 priority = 0
 organization = "University of Utah"
+# summary = """Managed and mentored students in the following courses: Intro to Graphics, Algorithms \
+# and Data Structures, Parallel Programming, Software Development, and Computational Theory courses. \
+# Recieved positive feedback from all professors I worked with."""
+# summary = "Managed and mentored students in advanced computer science courses."
 courses = ["Intro to Graphics", "Algorithms", "Parallel Programming", "etc."]
 skills = ["mentorship", "communication", "management", "collaboration", "conflict resolution"]
 time = "Aug 2020 - May 2024"
 
 [[sections.entries]]
-title = "Web Development Intern"
+title = "Web Development/QA Testing Intern"
 priority = 0
 organization = "Crescendo Technologies, Inc."
-summary = "Browser automation and end-to-end tests for production web apps."
-skills = ["Playwright", "Typescript", "Javascript", "React", "full-stack"]
+summary = "Wrote end-to-end tests for the UI of production web apps using browser automation."
+# summary = """Using the Playwright browser automation framework, I developed end-to-end tests \
+# closely tied to the frontend structure of the web app to ensure expected login and navigation \
+# functionality on continuous deployment to production, automating QA testing."""
+skills = ["Playwright", "Typescript", "Javascript", "Docker", "React", "CI/CD"]
 time = "Summer 2023"
 
 [[sections.entries]]
 title = "Deployment Intern"
 priority = 0
 organization = "Verisage Custom Software"
-summary = "Updating Django templates and python packages."
-skills = ["Python", "Django", "backend systems"]
+summary = "Refactored and updated dependencies for outdated Django company homepage."
+# summary = """Refactored Django homepage to newer versions and resolved dependency conflicts in the \
+# Python build environment. Updated page template content in the Django system where necessary."""
+skills = ["Python", "Django", "project management", "backend systems"]
 time = "Fall 2018"
+
+[[sections]]
+title = "Honors"
+priority = -1
+
+[[sections.entries]]
+title = "President's Scholarship"
+organization = "University of Utah"
+priority = 0
+summary = """Awarded a full-ride scholarship for a bachelor's degree at the University of Utah \
+upon admission for excellent academic achievements in high school."""
+time = "Aug 2019 - 2023"
+
+[[sections.entries]]
+title = "Dean's list"
+organization = "University of Utah"
+priority = 0
+summary = """Awarded the dean's list for my high GPA score, every semester of my student career at \
+the University of Utah."""
+time = "Aug 2019 - Dec 2025"
+
